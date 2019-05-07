@@ -15,7 +15,9 @@ body{
     margin: 0 0px;
     border: white 0px solid;
     box-shadow: 0px 8px 5px 0px rgba(0,0,0,0.75);
-
+    position: fixed;
+    width:100%;
+    margin-top: -60px;
 
 }
 .bara h1{
@@ -50,8 +52,10 @@ li a:hover {
   background-color: #111111;
 }
 .main_page{
+
+
   border: 2px white solid;
-  margin: 10px 100px;
+  margin: 60px 100px;
   padding-top: 0;
   padding: 0px;
   background-color: #333333;
@@ -61,13 +65,25 @@ li a:hover {
   padding-top: 0;
 }
 .main_text{
+
   overflow: auto;
   text-align: center;
 }
 .main_page p{
-  padding: 10px 50px;
+  padding: 10px 55px;
 }
 .contacts{
-  padding: 50px 30px;
-  margin-left: 20px 50px;
+  margin: 40px;
+  margin-top: 15px;
+}
+a{
+  color:white;
+  text-decoration: none;
+}
+.main_page a:hover{
+  text-decoration:underline;
+  weight:bold;
+}
+.a{
+  margin-right: 10px;
 }
